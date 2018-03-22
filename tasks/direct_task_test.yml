@@ -6,8 +6,8 @@ image_resource:
   type: docker-image
   source: {repository: busybox}
 
-inputs:
-- name: concourse_test_repo
+#inputs:
+#- name: concourse_test_repo
 
 run:
   path: echo
