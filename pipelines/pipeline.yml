@@ -1,0 +1,14 @@
+resources:
+- name: concourse_test_repo
+  type: git
+  source:
+    uri: https://github.com/Zanadar/ideal-octo-spork
+    branch: master
+
+jobs:
+- name: test-pipeline
+  plan:
+  - get: concourse_test_repo
+    trigger: true
+  - task: echo-something
+    file: concourse_test_repo/tasks/test_task.yml
