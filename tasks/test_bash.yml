@@ -6,7 +6,7 @@ image_resource:
   type: docker-image
   #source: {repository: python}
   source:
-    repository: hello-world
+    repository: alpine
 
 inputs:
 - name: concourse_test_repo
