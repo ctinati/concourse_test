@@ -10,5 +10,7 @@ jobs:
   plan:
   - get: concourse_test_repo
     trigger: true
-  - task: echo-something
-    file: concourse_test_repo/tasks/test_task.yml
+  - task: test_python
+    file: concourse_test_repo/tasks/test_python.yml
+  - task: test_bash
+    file: concourse_test_repo/tasks/test_bash.yml
