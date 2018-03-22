@@ -11,7 +11,7 @@ inputs:
 
 run:
   path: python
-  path: concourse_test_repo/scripts/test_python.py
+  args: concourse_test_repo/scripts/test_python.py
   #path: concourse_test_repo/scripts/test_script.sh
   #path: echo
   #args: [hello world]
