@@ -4,8 +4,8 @@ platform: linux
 
 image_resource:
   type: docker-image
-  #source: {repository: busybox}
-  source: {repository: python}
+  source: {repository: busybox}
+  #source: {repository: python}
 
 inputs:
 - name: concourse_test_repo
