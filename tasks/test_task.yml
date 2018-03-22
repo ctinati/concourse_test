@@ -11,6 +11,5 @@ inputs:
 
 run:
   path: concourse_test_repo/scripts/test_script.sh
-  args: [hello world]
   #path: echo
   #args: [hello world]
