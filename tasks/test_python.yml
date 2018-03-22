@@ -4,7 +4,6 @@ platform: linux
 
 image_resource:
   type: docker-image
-  #source: {repository: busybox}
   source: {repository: python}
 
 inputs:
@@ -12,5 +11,3 @@ inputs:
 
 run:
   path: concourse_test_repo/scripts/test_python.py
-  #path: python
-  #args: [concourse_test_repo/scripts/test_python.py]
