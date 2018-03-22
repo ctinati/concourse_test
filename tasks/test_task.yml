@@ -10,6 +10,6 @@ inputs:
 - name: concourse_test_repo
 
 run:
-  path: concourse_test_repo/scripts/test_script
+  path: ./concourse_test_repo/scripts/test_script.sh
   #path: echo
   #args: [hello world]
